@@ -7,13 +7,13 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-127143953-1');
     </script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mikael Wikstrom">
     <!--
@@ -26,49 +26,176 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+    -->
 </head>
 
-  <body class="text-center">
+<body>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">CyxTech</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Contact</a>
-          </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#main">Main<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-      </header>
+    </nav>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">CyxTech AB</h1>
-        <p class="lead">Stockholm County, Sweden</p>
-        <p class="lead">Software developers specializing in network programming, automation, linux. Embedded systems, C, python and lua.</p>
-        <p class="lead">
-        <!--
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        -->
-            <a href="https://www.linkedin.com/in/whoismikael/" class="btn btn-lg btn-secondary">Linkedin</a>
-        </p>
-      </main>
+    <!-- Page Header -->
 
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Copyright <a href="https://www.cyxtech.se/">CyxTech AB</a> 2015</p>
+    <header class="intro-header" style="background-image: url('img/desktop.jpg')">
+        <div class="container overlay">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="site-heading">
+                        <h1>CyxTech AB</h1>
+                        <hr class="small">
+                        <span class="subheading">
+                            Programming with a passion
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
+    </header>
+
+    <!-- Main Content -->
+
+
+    <div class="container-fluid container-90">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="post-preview">
+                    <p class="post-meta">Oktober 9, 2018</p>
+                    <!--
+                    <img class="img-responsive" src="img/caralog4.jpg">
+                    -->
+                    <h1 class="post-title">
+                        A new chapter
+                    </h1>
+                    <h3 class="post-subtitle">
+                        <p>
+                        I enjoyed my time at <a href="https://www.ericsson.com/en">Ericsson</a>  <br/>
+                        I enjoyed my studies at KTH (<a href="https://www.kth.se/en/">Royal Institute of Technology</a>).  <br/>
+                        I enjoyed my time working for the IT department of <a href="https://www.su.se/">Stockholm University</a>.  <br/>
+                        I enjoyed my time at Nanoradio and my time at Samsung after they aquired us.  <br/>
+                        </p>
+                        <p>
+                        Now a new chapter dawns and I tought I would try something new.  <br/>
+                        So as of 2015 I am a freelance developer. <br/>
+                        Lets have some fun... <br/>
+                        </p>
+                    </h3>
+                </div>
+            </div>
+
+        </div>
+        <!-- Pager
+        <ul class="pager">
+            <li class="next">
+                <a href="#">Older</a>
+            </li>
+        </ul> -->
     </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
-    <script src="js/vendor/popper.min.js"></script>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg col-lg-8">
+                    <ul class="list-inline text-center" id="contact">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/whoismikael/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:mikael@cyxtech.se">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <!--
+                            <a href="https://github.com/cyxtech">
+                        -->
+                            <a href="https://github.com/leakim">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <!--
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/cyxtech">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/cyxtech">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://plus.google.com/+CyxTech/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.cyxtech.se">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-male fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                    <p class="copyright text-muted">&copy; 2018 <a href="https://www.cyxtech.se">CyxTech AB</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-slim.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
