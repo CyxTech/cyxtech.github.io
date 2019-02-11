@@ -1,0 +1,5 @@
+
+
+test:
+	jekyll serve
+

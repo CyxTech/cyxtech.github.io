@@ -1,0 +1,21 @@
+
+https://jekyllrb.com/docs/github-pages/
+
+
+http://jmcglone.com/guides/github-pages/
+
+
+
+http://jekyllthemes.org/
+
+http://heiswayi.github.io/thinkspace/
+theme: thinkspace
+
+
+DONE
+----
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04
+
+http://elkindnet.github.io/codedesign-small-business/
+

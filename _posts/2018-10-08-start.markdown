@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "A new chapter!"
+date:   2018-10-09 20:49:58 +0100
+categories: jekyll update
+---
+
+<p class="post-meta">Oktober 9, 2018</p>
+<!--
+<img class="img-responsive" src="img/caralog4.jpg">
+-->
+<h1 class="post-title">
+    A new chapter
+</h1>
+<h4 class="post-subtitle">
+    <p>
+    I enjoyed my time at <a href="https://www.ericsson.com/en">Ericsson</a>  <br/>
+    I enjoyed my studies at the <a href="https://www.kth.se/en/">Royal Institute of Technology (KTH)</a>.  <br/>
+    I enjoyed my time working for the IT department of <a href="https://www.su.se/">Stockholm University</a>.  <br/>
+    I enjoyed my time at Nanoradio and my time at Samsung after they aquired us.  <br/>
+    </p>
+    <p>
+    Now a new chapter dawns and I tought I would try something new.  <br/>
+    So as of 2015 I am a freelance developer. <br/>
+    Lets have some fun... <br/>
+    </p>
+</h4>
